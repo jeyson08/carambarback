@@ -19,17 +19,7 @@ const dialogController = {
     } else {
       res.status(404).json({ message: "Blague non trouvée" });
     }
-  },
-//   getRandomBlague: (req, res) => {
-//     const randomIndex = Math.floor(Math.random() * blague.length);
-//     const randomBlague = blague[randomIndex];
-    
-//     if (randomBlague) {
-//       res.status(200).json(randomBlague);
-//     } else {
-//       res.status(404).json({ message: "Blague non trouvée" });
-//     }
-//   }  
+  }
 }
 
 module.exports = dialogController
