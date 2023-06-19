@@ -15,3 +15,5 @@ app.get('/blagues', (req, res) => {
 app.listen(port, () => {
     console.log("Server is runningggg on port " + port);
 });
+
+app.use('/api/v1', require('./routes/v1'))
